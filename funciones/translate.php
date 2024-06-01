@@ -2,7 +2,7 @@
 
 // Llamada a la API de DeepL para traducir texto
 function traducirTexto($texto, $idiomaDestino) {
-    $apiKey = 'API_KEY_DEEPL'; // Reemplaza con tu clave de API de DeepL
+    $apiKey = 'DEEPL_API_KEY'; // Reemplaza con tu clave de API de DeepL
     $url = 'https://api-free.deepl.com/v2/translate';
     
     $textoTraducido = '';
